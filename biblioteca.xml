@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE biblioteca SYSTEM "DTD_biblioteca.dtd"> -->
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation= "XSD_biblioteca.xsd">
+    <libros>
+        <libro id="L0001" tipo_clase="didactico">
+            <titulo>Libro 1</titulo>
+            <indice>
+                <pagina num="1" titulo="Foo" />
+                <pagina num="13" titulo="Bar" />
+                <pagina num="25" titulo="Rab" />
+            </indice>
+            <sinopsis>Libro que trata de Libro 1.</sinopsis>
+            <num_paginas>256</num_paginas>
+            <capitulos>
+                <capitulo>
+                    <titulo>Capitulo 1</titulo>
+                    <num_paginas>18</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro1/capitulo1" />
+                </capitulo>
+                <capitulo>
+                    <titulo>Capitulo 2</titulo>
+                    <num_paginas>14</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro1/capitulo2" />
+                </capitulo>
+                <capitulo>
+                    <titulo>Capitulo 3</titulo>
+                    <num_paginas>20</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro1/capitulo3" />
+                </capitulo>
+            </capitulos>
+        </libro>
+        <libro id="L0002" tipo_clase="infantil">
+            <titulo>Libro 2</titulo>
+            <indice>
+                <pagina num="1" titulo="Foo" />
+                <pagina num="13" titulo="Bar" />
+                <pagina num="25" titulo="Rab" />
+            </indice>
+            <sinopsis>Libro que trata de Libro 2.</sinopsis>
+            <num_paginas>512</num_paginas>
+            <capitulos>
+                <capitulo>
+                    <titulo>Capitulo 1</titulo>
+                    <num_paginas>18</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro2/capitulo1" />
+                </capitulo>
+                <capitulo>
+                    <titulo>Capitulo 2</titulo>
+                    <num_paginas>14</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro2/capitulo2" />
+                </capitulo>
+                <capitulo>
+                    <titulo>Capitulo 3</titulo>
+                    <num_paginas>20</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro2/capitulo3" />
+                </capitulo>
+            </capitulos>
+        </libro>
+        <libro id="L0003" tipo_clase="novela">
+            <titulo>Libro 3</titulo>
+            <indice>
+                <pagina num="1" titulo="Foo" />
+                <pagina num="13" titulo="Bar" />
+                <pagina num="25" titulo="Rab" />
+            </indice>
+            <sinopsis>Libro que trata de Libro 3.</sinopsis>
+            <num_paginas>1024</num_paginas>
+            <capitulos>
+                <capitulo>
+                    <titulo>Capitulo 1</titulo>
+                    <num_paginas>18</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro3/capitulo1" />
+                </capitulo>
+                <capitulo>
+                    <titulo>Capitulo 2</titulo>
+                    <num_paginas>14</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro3/capitulo2" />
+                </capitulo>
+                <capitulo>
+                    <titulo>Capitulo 3</titulo>
+                    <num_paginas>20</num_paginas>
+                    <contenido enlace="https://biblioteca.com/libro3/capitulo3" />
+                </capitulo>
+            </capitulos>
+        </libro>
+    </libros>
+    <revistas>
+        <revista id="R0001" tipo_clase="informatica">
+            <titulo>Revista Informatica 1</titulo>
+            <indice>
+                <pagina num="1" titulo="Contenido 1" />
+                <pagina num="22" titulo="Contenido 2" />
+                <pagina num="32" titulo="Contenido 3" />
+            </indice>
+            <secciones>
+                <seccion>
+                    <titulo>Seccion 1</titulo>
+                    <num_paginas>25</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista1/seccion/1" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 2</titulo>
+                    <num_paginas>30</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista1/seccion/2" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 3</titulo>
+                    <num_paginas>15</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista1/seccion/3" />
+                </seccion>
+            </secciones>
+            <num_revista>45678</num_revista>
+        </revista>
+        <revista id="R0002" tipo_clase="investigacion">
+            <titulo>Investigacion 1</titulo>
+            <indice>
+                <pagina num="1" titulo="Contenido 1" />
+                <pagina num="22" titulo="Contenido 2" />
+                <pagina num="32" titulo="Contenido 3" />
+                <pagina num="45" titulo="Contenido 4" />
+            </indice>
+            <secciones>
+                <seccion>
+                    <titulo>Seccion 1</titulo>
+                    <num_paginas>25</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista2/seccion/1" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 2</titulo>
+                    <num_paginas>30</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista2/seccion/2" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 3</titulo>
+                    <num_paginas>15</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista2/seccion/3" />
+                </seccion>
+            </secciones>
+            <num_revista>11984</num_revista>
+        </revista>
+        <revista id="R0003" tipo_clase="coches">
+            <titulo>Coches XYZ</titulo>
+            <indice>
+                <pagina num="1" titulo="Contenido 1" />
+                <pagina num="22" titulo="Contenido 2" />
+                <pagina num="32" titulo="Contenido 3" />
+                <pagina num="45" titulo="Contenido 4" />
+            </indice>
+            <secciones>
+                <seccion>
+                    <titulo>Seccion 1</titulo>
+                    <num_paginas>25</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista3/seccion/1" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 2</titulo>
+                    <num_paginas>30</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista3/seccion/2" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 3</titulo>
+                    <num_paginas>15</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista3/seccion/3" />
+                </seccion>
+            </secciones>
+            <num_revista>9895</num_revista>
+        </revista>
+        <revista id="R0004" tipo_clase="corazon">
+            <titulo>Corazon 49v</titulo>
+            <indice>
+                <pagina num="1" titulo="Contenido 1" />
+                <pagina num="22" titulo="Contenido 2" />
+                <pagina num="32" titulo="Contenido 3" />
+                <pagina num="45" titulo="Contenido 4" />
+            </indice>
+            <secciones>
+                <seccion>
+                    <titulo>Seccion 1</titulo>
+                    <num_paginas>25</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista4/seccion/1" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 2</titulo>
+                    <num_paginas>30</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista4/seccion/2" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 3</titulo>
+                    <num_paginas>15</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista4/seccion/3" />
+                </seccion>
+            </secciones>
+            <num_revista>55624</num_revista>
+        </revista>
+        <revista id="R0005" tipo_clase="otras">
+            <titulo>Juegos RPG</titulo>
+            <indice>
+                <pagina num="1" titulo="Contenido 1" />
+                <pagina num="22" titulo="Contenido 2" />
+                <pagina num="32" titulo="Contenido 3" />
+                <pagina num="45" titulo="Contenido 4" />
+            </indice>
+            <secciones>
+                <seccion>
+                    <titulo>Seccion 1</titulo>
+                    <num_paginas>25</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista5/seccion/1" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 2</titulo>
+                    <num_paginas>30</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista5/seccion/2" />
+                </seccion>
+                <seccion>
+                    <titulo>Seccion 3</titulo>
+                    <num_paginas>15</num_paginas>
+                    <contenido enlace="https://biblioteca.com/revista5/seccion/3" />
+                </seccion>
+            </secciones>
+            <num_revista>798651</num_revista>
+        </revista>
+    </revistas>
+    <periodicos>
+        <periodico id="P0001" tipo_clase="nacionales" fecha_publicacion="2011-11-11">
+            <indice>
+                <pagina num="1" titulo="Noticia 1" />
+                <pagina num="3" titulo="Noticia 2" />
+                <pagina num="5" titulo="Noticia 3" />
+                <pagina num="6" titulo="Noticia 4" />
+            </indice>
+            <secciones_per>
+                <seccion_per tipo="opinion">
+                    <articulo autor="Brayan">
+                        <contenido enlace="https://biblioteca.com/periodico1/opinion/1" />
+                    </articulo>
+                    <articulo autor="Asael">
+                        <contenido enlace="https://biblioteca.com/periodico1/opinion/2" />
+                    </articulo>
+                </seccion_per>
+                <seccion_per tipo="internacional">
+                    <articulo autor="Brayan">
+                        <contenido enlace="https://biblioteca.com/periodico1/internacional/1" />
+                    </articulo>
+                    <articulo autor="Asael">
+                        <contenido enlace="https://biblioteca.com/periodico1/internacional/2" />
+                    </articulo>
+                </seccion_per>
+            </secciones_per>
+        </periodico>
+        <periodico id="P0002" tipo_clase="internacionales" fecha_publicacion="2017-04-07">
+            <indice>
+                <pagina num="1" titulo="Noticia 1" />
+                <pagina num="3" titulo="Noticia 2" />
+                <pagina num="5" titulo="Noticia 3" />
+                <pagina num="6" titulo="Noticia 4" />
+            </indice>
+            <secciones_per>
+                <seccion_per tipo="deportes">
+                    <articulo autor="Brayan">
+                        <contenido enlace="https://biblioteca.com/periodico2/deportes/1" />
+                    </articulo>
+                    <articulo autor="Asael">
+                        <contenido enlace="https://biblioteca.com/periodico2/deportes/2" />
+                    </articulo>
+                </seccion_per>
+                <seccion_per tipo="economica">
+                    <articulo autor="Brayan">
+                        <contenido enlace="https://biblioteca.com/periodico2/economica/1" />
+                    </articulo>
+                    <articulo autor="Asael">
+                        <contenido enlace="https://biblioteca.com/periodico2/economica/2" />
+                    </articulo>
+                </seccion_per>
+            </secciones_per>
+        </periodico>
+    </periodicos>
+</biblioteca>
